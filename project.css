@@ -3,17 +3,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     font-family: "Raleway", sans-serif
 }
+
+/* .maincount{
+    margin-right: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 100vh;
+} */
 .mycontainer {
     box-shadow: 2px 2px 5px 5px grey;
     width: 100%;
@@ -132,33 +130,29 @@ li:hover a,
 /* we know design section */
 
 .myparent {
-    width: fit-content;
+    width: 100%;
     height: auto;
     background-color: rgb(240, 239, 239);
     display: flex;
+    padding: 6rem 20px;
 }
 
-.phoneimg {
-    float: right;
-    margin: 4.5rem;
-    display: block;
-    padding-top: 4.5rem;
-}
 
 .para {
     float: left;
-    margin: 1.5rem;
+    padding: 0 5rem;
     display: block;
-    height: 350px;
-    padding: 4rem 0.5rem;
+    width: 50%;
+    height: auto;
+
     font-size: 15px;
     line-height: 1.5rem;
 }
 
-.phoneimg img {
+.myparent img {
+    width: 50%;
+    height: fit-content;
     border-radius: 15px;
-    width: 40rem;
-    height: 350px;
 }
 
 .para a {
@@ -447,52 +441,59 @@ li:hover a,
 
 /* contact section */
 
-.contactparent{
+.contactparent {
     width: 100%;
     height: max-content;
     background-color: rgb(242, 242, 247);
     margin-top: 40px;
 }
 
-.contactsiblin i{
-   width: 100%;
-   height: auto;
+.contactsiblin i {
+    width: 100%;
+    height: auto;
 }
-.format{
+
+.format {
     text-align: center;
     padding-top: 20px;
     font-weight: 100;
 }
 
-.contactsiblin p{
+.contactsiblin p {
     padding: 25px;
 }
-.formchild{
-padding: 12px 5px;
-margin: 8px;
-width: 100%;
-padding-right: 0;
-align-items: center;
-justify-content: center;
-border: 1px solid #cfcfb4ef;
-font-size: 15px;
+
+.formchild {
+    padding: 12px 5px;
+    margin: 8px;
+    width: 100%;
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cfcfb4ef;
+    font-size: 15px;
 }
-.sub{
+
+.sub {
     background-color: black;
     border: none;
     padding: 15px 20px;
     color: white;
 }
-.sub:hover{
+
+.sub:hover {
     background-color: rgb(204, 201, 201);
     color: black;
 }
-.imgmap{
+
+.imgmap {
     margin-top: 48px;
     width: 100%;
     margin-bottom: 48px;
+
 }
-footer{
+
+footer {
     text-align: center;
     background-color: black;
     padding: 65px;
@@ -500,58 +501,225 @@ footer{
     color: white;
     display: block;
 }
-footer p a{
+
+footer p a {
     color: white;
 }
-footer a:hover{
+
+footer a:hover {
     color: green
 }
-footer a:active{
+
+footer a:active {
     color: blue;
 }
-footer button{
-   background-color: white;
-   color: black;
-   padding: 15px 25px;
-  align-items: center;
-  border: none;
+
+footer button {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    align-items: center;
+    border: none;
 }
-footer :hover button{
+
+footer :hover button {
     background-color: rgb(182, 180, 180);
 }
+
 /* media querry section */
-@media(max-width: 600px){
-    .mynav{
+@media(max-width: 650px) {
+    .mynav {
         display: none;
     }
+
     .imgcontainer {
-    max-width: 100%;
-    height: 700px;
-    background-image: url(imgfolder/team2.jpg);
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.gridhome{
-    display: block;
-}
-.myparent{
-    display: block;
-    padding: 0;
+
+        height: 700px;
+        background-image: url(imgfolder/team2.jpg);
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .parent {
+        position: fixed;
+    }
+
+    .gridhome {
+        display: block;
+        padding: 5px;
+        margin: 0;
+    }
+
+
+    .para {
+        margin: 0;
+        padding: 30px 0;
+        width: 100%;
+    }
+
+    .myparent {
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .myparent img {
+        width: 100%;
+        height: auto;
+    }
+
+    .myparent {
+        padding: 10px;
+        margin: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        position: inherit;
+    }
+
+    .myparent img {
+        padding: 0;
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .over {
+        display: block;
+        margin: 10px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .over div {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .gellery {
+        display: block;
+
+
+    }
+
+    .navrap {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navrap div {
+        padding: 20px;
+    }
+
+    .imgupload div {
+        display: block;
+
+    }
+
+    .imgupload {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
+        position: initial;
+    }
+
+    .imgupload div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .imgupload img {
+        width: 100%;
+    }
+
+    .mainfada {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 20px;
+    }
+
+    .mainfada div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .fada,
+    .fada2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .parentbodi {
+        display: block;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .mybodicount {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .load {
+        color: white;
+        text-align: center;
+        font-weight: 50;
+    }
+
+    .contactparent {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+    .imgcontainer {
+        width: 100%;
+        height: 600px;
+        background-image: url(imgfolder/team2.jpg);
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0.5rem;  
+    }
+    .text2{
+        font-size: 40px;
+    }
     
-}
-.para{
-    margin: 5px;
-    padding: 0;
-}
-.phoneimg{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
 }
