@@ -1,9 +1,15 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    font-family: "Raleway", sans-serif
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
 }
 
 /* .maincount{
@@ -13,334 +19,333 @@ body{
     height: 100vh;
 } */
 .mycontainer {
-    box-shadow: 2px 2px 5px 5px grey;
-    width: 100%;
-    height: 60px;
-    background-color: white;
-    position: fixed;
-    top: 0;
+  box-shadow: 2px 2px 5px 5px grey;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  top: 0;
 }
 
 .parent .firsti {
-    display: inline-flex;
-    float: left;
-    padding: 21px;
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
+  display: inline-flex;
+  float: left;
+  padding: 21px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
 }
 
 .mynav ul {
-    display: flex;
-    float: right;
-    list-style-type: none;
+  display: flex;
+  float: right;
+  list-style-type: none;
+  padding-top: 21px;
 }
 
 li a {
-    text-decoration: none;
-    color: black;
-    padding: 26.5px 15px;
+  text-decoration: none;
+  color: black;
+  padding: 21.5px 15px;
 }
 
 li:hover a,
 :hover.firsti {
-    background-color: rgb(184, 182, 182);
+  background-color: rgb(184, 182, 182);
 }
 
 /* start something section */
 .imgcontainer {
-    max-width: 100%;
-    height: 700px;
-    background-image: url(imgfolder/team2.jpg);
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    padding: 0 3rem;
+  max-width: 100%;
+  height: 700px;
+  background-image: url(imgfolder/team2.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem;
 }
 
 .text2 {
-    position: initial;
-    padding-top: 9rem;
+  position: initial;
+  padding-top: 9rem;
 
-    color: white;
-    font-size: 3.5rem;
+  color: white;
+  font-size: 3.5rem;
 }
 
 .imgcontainer p span {
-    position: initial;
-    padding-top: 9rem;
-    color: white;
-    font-size: 1.2rem;
+  position: initial;
+  padding-top: 9rem;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .sen a {
-    position: initial;
-    background-color: rgba(207, 207, 209, 0.575);
-    padding: 20px 20px;
-    text-decoration: none;
-    color: black;
-
+  position: initial;
+  background-color: rgba(207, 207, 209, 0.575);
+  padding: 20px 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .sen {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .tablediv {
-    text-align: center;
-    padding: 40px 0;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3);
-
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3);
 }
 
 .tablediv span {
-    font-size: 1.5rem;
-    line-height: 50px;
-
+  font-size: 1.5rem;
+  line-height: 50px;
 }
 
 .gridhome {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-    padding: 50px 20px;
-    margin: 30px;
-    font-size: 15px;
-    line-height: 25px;
-
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 30px;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .gridhome div p:first-child {
-    font-size: 1rem;
-    font-weight: 500;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .gridhome div {
-    margin: 15px;
+  margin: 15px;
 }
 
 .sen:hover a {
-    background-color: rgb(184, 183, 183);
+  background-color: rgb(184, 183, 183);
 }
 
 /* we know design section */
 
 .myparent {
-    width: 100%;
-    height: auto;
-    background-color: rgb(240, 239, 239);
-    display: flex;
-    padding: 6rem 20px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(240, 239, 239);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .para {
-    float: left;
-    padding: 0 5rem;
-    display: block;
-    width: 50%;
-    height: auto;
+  float: left;
+  padding: 0 5rem;
+  display: block;
+  width: 50%;
+  height: auto;
 
-    font-size: 15px;
-    line-height: 1.5rem;
+  font-size: 15px;
+  line-height: 1.5rem;
 }
 
 .myparent img {
-    width: 50%;
-    height: fit-content;
-    border-radius: 15px;
+  width: 50%;
+  height: fit-content;
+  border-radius: 15px;
 }
 
 .para a {
-    text-decoration: none;
-    color: white;
-    padding: 15px 30px;
-    background-color: rgb(14, 12, 12);
-    line-height: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  background-color: rgb(14, 12, 12);
+  line-height: 20px;
 }
 
 .para a:hover {
-    background-color: rgb(219, 218, 218);
-    color: black;
+  background-color: rgb(219, 218, 218);
+  color: black;
+}
+#view {
+  margin: 40px;
 }
 
 /* the team section */
 .over {
-    text-align: center;
-    height: 49rem;
-    width: 100%;
+  text-align: center;
+  height: 49rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .occupation {
-    color: grey;
-    text-align: start;
-    padding: 5px 1.3rem;
+  color: grey;
+  text-align: start;
+  padding: 5px 1.3rem;
 }
 
 .over p:first-child {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .paralel {
-    padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
-
 .gellery {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    width: 100%;
-    column-gap: 15px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  width: 100%;
+  column-gap: 15px;
 }
 
 .sec-class {
-    width: 100%;
-    box-shadow: 1px 1px 3px 3px rgb(230, 230, 230);
+  width: 100%;
+  box-shadow: 1px 1px 3px 3px rgb(230, 230, 230);
 }
 
 .sec-class div {
-    width: 100%;
-    position: relative;
-
+  width: 100%;
+  position: relative;
 }
 
-
 .gellery img {
-    position: initial;
-    width: 100%;
+  position: initial;
+  width: 100%;
 }
 
 .gellery button {
-    background-color: rgb(231, 220, 220);
-    padding: 10px 20%;
-    margin: 20px;
-    border: none;
+  background-color: rgb(231, 220, 220);
+  padding: 10px 20%;
+  margin: 20px;
+  border: none;
 }
 
 .gellery button:hover {
-    background-color: rgb(160, 156, 156);
+  background-color: rgb(160, 156, 156);
 }
 
 /* 14+ PARTNERS SECTION */
 .navrap {
-    background-color: rgb(94, 91, 91);
-    display: flex;
-    padding: 0 5px;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    height: 200px;
-    margin-bottom: 70px;
-    position: initial;
+  background-color: rgb(94, 91, 91);
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  height: 200px;
+  margin-bottom: 70px;
+  position: initial;
 }
 
 .navrap .count1,
 .count2,
 .count3,
 .count4 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 /* OUR WORK SECTION */
-.imgupload{
-    width: 100%;
+.imgupload {
+  width: 100%;
 }
 
 .imgupload p {
-    text-align: center;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgholder {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    width: 100%;
-    height: auto;
-    gap: 5px;
-    padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  width: 100%;
+  height: auto;
+  gap: 5px;
+  padding-bottom: 80px;
 }
 
 .imlap img {
-    width: 100%;
+  width: 100%;
 }
 
 .rest {
-    padding-bottom: 35px;
+  padding-bottom: 35px;
 }
 
 .imgupload p:first-child {
-    font-size: 25px;
-    padding-top: 45px;
-    font-weight: 200;
+  font-size: 25px;
+  padding-top: 45px;
+  font-weight: 200;
 }
 
-
 .imlap:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* our skill section */
 
 .mainfada {
-    background-color: rgb(235, 233, 233);
-    width: 100%;
-    display: flex;
-    padding: 3.5rem .5rem;
-    flex-direction: row;
+  background-color: rgb(235, 233, 233);
+  width: 100%;
+  display: flex;
+  padding: 3.5rem 0.5rem;
+  flex-direction: row;
 }
 
 .fada {
-    width: 50%;
-    font-size: 15px;
-    line-height: 30px;
+  width: 50%;
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .fada2 {
-    margin: 1rem;
-    width: 50%;
-    font-family: Arial, sans-serif;
+  margin: 1rem;
+  width: 50%;
+  font-family: Arial, sans-serif;
 }
 
 .fadachild {
-    background-color: grey;
-    width: 90%;
-    text-align: center;
-    padding: 5px;
-    color: white;
+  background-color: grey;
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  color: white;
 }
 
 .fadachild2 {
-    background-color: grey;
-    width: 85%;
-    text-align: center;
-    padding: 5px;
-    color: white;
+  background-color: grey;
+  width: 85%;
+  text-align: center;
+  padding: 5px;
+  color: white;
 }
 
 .fadachild3 {
-    background-color: grey;
-    width: 75%;
-    text-align: center;
-    padding: 5px;
-    color: white;
+  background-color: grey;
+  width: 75%;
+  text-align: center;
+  padding: 5px;
+  color: white;
 }
 
 .shadow {
-    width: 100%;
-    height: auto;
-    background-color: rgb(173, 167, 167);
+  width: 100%;
+  height: auto;
+  background-color: rgb(173, 167, 167);
 }
 
 /* pricing plan section */
-
 
 /* .overall {
     text-align: center;
@@ -351,208 +356,212 @@ li:hover a,
     color: red;
 } */
 .parentbodi {
-    margin: 0;
-    position: initial;
-    padding: 100px 0;
-    background-color: rgb(104, 102, 102);
-    width: 100%;
-    height: max-content;
-    display: block;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  position: initial;
+  padding: 100px 0;
+  background-color: rgb(104, 102, 102);
+  width: 100%;
+  height: max-content;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
 
+.relax {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
-.relax{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-.hang{
-    color: rgb(243, 241, 241);
-    text-align: center;
-    
+
+.hang {
+  color: rgb(243, 241, 241);
+  text-align: center;
 }
 
 .mybodicount:hover {
-    box-shadow: 1px 1px 5px 5px rgb(37, 35, 35);
+  box-shadow: 1px 1px 5px 5px rgb(37, 35, 35);
 }
 
 .mybodicount {
-    width: 32%;
-    justify-content: center;
-    padding: 0;
-    position: initial;
-    background-color: white;
-    margin-top: 2rem;
+  width: 32%;
+  justify-content: center;
+  padding: 0;
+  position: initial;
+  background-color: white;
+  margin-top: 2rem;
 }
 
 .lisec {
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-    border-bottom: 1px solid #9e9b9b;
-    margin-left: 0;
-    position: initial;
-    background-color: white;
-
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #9e9b9b;
+  margin-left: 0;
+  position: initial;
+  background-color: white;
 }
 
 .lisec1 {
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    padding: 50px 0;
-    border-bottom: 1px dotted #9e9b9b;
-    margin-left: 0;
-    position: initial;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 1px dotted #9e9b9b;
+  margin-left: 0;
+  position: initial;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .amount {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .remark {
-    color: #3a3838;
+  color: #3a3838;
 }
 
 .lisec2 {
-    background-color: rgb(236, 234, 234);
-    text-align: center;
-
+  background-color: rgb(236, 234, 234);
+  text-align: center;
 }
 
 .lisec2 button {
-    margin: 35px;
-    padding: 20px 35px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    height: 55px;
+  margin: 35px;
+  padding: 20px 35px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  height: 55px;
 }
 
 :hover.click1 {
-    background-color: rgb(160, 155, 155);
-    color: black;
+  background-color: rgb(160, 155, 155);
+  color: black;
 }
 
 .lisec12 {
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    padding: 50px 0;
-    border-bottom: 1px solid #9e9b9b;
-    margin-left: 0;
-    position: initial;
-    background-color: rgb(252, 54, 54);
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 1px solid #9e9b9b;
+  margin-left: 0;
+  position: initial;
+  background-color: rgb(252, 54, 54);
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .mybodicount li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* contact section */
 
 .contactparent {
-    width: 100%;
-    height: max-content;
-    background-color: rgb(242, 242, 247);
-    margin-top: 0;
+  width: 100%;
+  height: max-content;
+  background-color: rgb(242, 242, 247);
+  margin-top: 0;
 }
 
 .contactsiblin i {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .format {
-    text-align: center;
-    padding-top: 20px;
-    font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 100;
 }
 
 .contactsiblin p {
-    padding: 25px;
+  padding: 25px;
 }
 
 .formchild {
-    padding: 12px 5px;
-    margin: 8px;
-    width: 100%;
-    padding-right: 0;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #cfcfb4ef;
-    font-size: 15px;
+  padding: 12px 5px;
+  margin: 8px;
+  width: 100%;
+  padding-right: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cfcfb4ef;
+  font-size: 15px;
 }
 
 .sub {
-    background-color: black;
-    border: none;
-    padding: 15px 20px;
-    color: white;
+  background-color: black;
+  border: none;
+  padding: 15px 20px;
+  color: white;
 }
 
 .sub:hover {
-    background-color: rgb(204, 201, 201);
-    color: black;
+  background-color: rgb(204, 201, 201);
+  color: black;
 }
 
 .imgmap {
-    margin-top: 48px;
-    width: 100%;
-    margin-bottom: 48px;
-
+  margin-top: 48px;
+  width: 100%;
+  margin-bottom: 48px;
 }
 
 footer {
-    text-align: center;
-    background-color: black;
-    padding: 65px;
-    margin-top: 3rem;
-    color: white;
-    display: block;
+  text-align: center;
+  background-color: black;
+  padding: 65px;
+  margin-top: 3rem;
+  color: white;
+  display: block;
 }
 
 footer p a {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: green
+  color: green;
 }
 
 footer a:active {
-    color: blue;
+  color: blue;
 }
 
 footer button {
-    background-color: white;
-    color: black;
-    padding: 15px 25px;
-    align-items: center;
-    border: none;
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  align-items: center;
+  border: none;
+  margin: 20px;
 }
 
-footer button:hover{
-    background-color: rgb(180, 180, 180);
+footer button:hover {
+  background-color: rgb(180, 180, 180);
 }
 
 /* media querry section */
-@media(max-width: 650px) {
-    .mynav {
-        display: none;
-    }
+@media (max-width: 650px) {
+ 
+  li a {
+    display: none;
 
-    .imgcontainer {
+  }
+  .tablediv {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* .imgcontainer {
 
         height: 700px;
         background-image: url(imgfolder/team2.jpg);
@@ -562,185 +571,174 @@ footer button:hover{
         padding: 0;
         margin: 0;
         width: 100%;
-    }
+    } */
 
-    body {
-        margin: 0;
-        padding: 0;
-        height: auto;
-        box-sizing: border-box;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+  }
 
-    .parent {
-        position: fixed;
-    }
+  .parent {
+    position: fixed;
+  }
 
-    .gridhome {
-        display: block;
-        padding: 5px;
-        margin: 0;
-    }
+  .gridhome {
+    display: block;
+    padding: 5px;
+    margin: 0;
+  }
 
+  .para {
+    margin: 0;
+    padding: 30px 0;
+    width: 100%;
+  }
 
-    .para {
-        margin: 0;
-        padding: 30px 0;
-        width: 100%;
-    }
+  .myparent {
+    padding: 10px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: inherit;
+  }
 
-    .myparent {
-        margin: 0;
-        padding: 20px;
-        width: 100%;
-        height: auto;
-    }
+  .myparent img {
+    padding: 0;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .myparent img {
-        width: 100%;
-        height: auto;
-    }
+  .over {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
 
-    .myparent {
-        padding: 10px;
-        margin: 0;
-        display: block;
-        width: 100%;
-        height: auto;
-        position: inherit;
-    }
+  .over div {
+    width: 100%;
+    height: auto;
+  }
 
-    .myparent img {
-        padding: 0;
-        width: 100%;
-        border-radius: 10px;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
+  .gellery {
+    display: block;
+    width: 100%;
+  }
 
-    .over {
-        display: block;
-        margin: 10px;
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
+  .navrap {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .over div {
-        width: 100%;
-        height: auto;
-        margin: 10px;
-    }
+  .navrap div {
+    padding: 20px;
+  }
 
-    .gellery {
-        display: block;
+  .imgupload div {
+    display: block;
+  }
 
+  .imgupload {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: initial;
+  }
 
-    }
+  .imgupload div {
+    width: 100%;
+    margin: 0;
+  }
 
-    .navrap {
-        display: block;
-        margin: auto;
-        width: 100%;
-        height: auto;
-        margin: 10px;
-        align-items: center;
-        justify-content: center;
-    }
+  .imgupload img {
+    width: 100%;
+  }
 
-    .navrap div {
-        padding: 20px;
-    }
+  .mainfada {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px;
+  }
 
-    .imgupload div {
-        display: block;
+  .mainfada div {
+    width: 100%;
+    margin: 0;
+  }
 
-    }
+  .fada,
+  .fada2 {
+    width: 100%;
+    height: auto;
+  }
 
-    .imgupload {
-        width: 100%;
-        height: auto;
-        padding: 2rem;
-        align-items: center;
-        justify-content: center;
-        position: initial;
-    }
+  .parentbodi {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0;
+  }
 
-    .imgupload div {
-        width: 100%;
-        margin: 0;
-    }
+  .mybodicount {
+    width: 100%;
+    margin-top: 15px;
+  }
 
-    .imgupload img {
-        width: 100%;
-    }
+  .load {
+    color: white;
+    text-align: center;
+    font-weight: 50;
+    padding: 25px;
+  }
 
-    .mainfada {
-        width: 100%;
-        height: auto;
-        display: block;
-        padding: 20px;
-    }
+  .contactparent {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 10px;
+  }
 
-    .mainfada div {
-        width: 100%;
-        margin: 0;
-    }
+  input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
 
-    .fada,
-    .fada2 {
-        width: 100%;
-        height: auto;
-    }
+  .imgcontainer {
+    width: 100%;
+    height: 600px;
+    background-image: url(imgfolder/team2.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5rem;
+  }
 
-    .parentbodi {
-        display: block;
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 20px;
-        margin: 0;
-    }
+  .text2 {
+    font-size: 40px;
+  }
 
-    .mybodicount {
-        width: 100%;
-        margin-top: 15px;
-    }
-
-    .load {
-        color: white;
-        text-align: center;
-        font-weight: 50;
-    }
-
-    .contactparent {
-        width: 100%;
-        margin: 0;
-        height: auto;
-        padding: 10px;
-    }
-
-    input {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        height: auto;
-    }
-
-    .imgcontainer {
-        width: 100%;
-        height: 600px;
-        background-image: url(imgfolder/team2.jpg);
-        background-size: cover;
-        align-items: center;
-        justify-content: center;
-        padding: 0 0.5rem;
-    }
-
-    .text2 {
-        font-size: 40px;
-    }
-
+  .relax {
+    display: block;
+  }
 }
