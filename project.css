@@ -1,9 +1,15 @@
-* {
+*{
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
-
+main{
+  margin: auto;
+  width: 99%;
+  height: fit-content;
+  padding: 0;
+  justify-content: center;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,6 +18,7 @@ body {
   line-height: 1.8;
   color: rgb(32, 32, 32);
   font-weight: 300;
+  margin-right: 0;
    /* font-family: Verdana, sans-serif; */
 }
 body,
@@ -20,18 +27,11 @@ h2,
 h3 {
   font-family: Verdana, sans-serif;
 }
-/* Icon section */
-.firsy a{
-  color: rgb(32, 32, 32);
-}
-.first-logo{
- position: inherit;
- 
-}
+
 .icon-sample {
   font-size: 64px;
   margin-bottom: 16px;
-  box-sizing: inherit;
+  box-sizing: border-box;
   /* text-rendering: auto; */
 }
 
@@ -61,12 +61,29 @@ h3 {
 #media:hover{
   background-color: grey;
 }
+.firsy {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+
+.firsy a {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.firsy a:hover {
+  opacity: 1;
+}
+
 /* BAR ICON SECTION */
 .loude .fa-bars{
   color: black;
 display: none;
 position: absolute;
-padding: 27px 36px;
+padding: 27px ;
 justify-content: left;
 right: 0;
 position: fixed;
@@ -91,17 +108,15 @@ position: fixed;
 padding: 10px 20px;
 font-size: 15px;
 }
+#mobileNav p{
+  padding: 10px 20px;
+  cursor: pointer;
+}
 .mobile-nav a:hover{
 background-color: rgb(212, 211, 211);
 color: black;
 }
 
-/* .maincount{
-    margin-right: 0;
-    padding-left: 0;
-    width: 100%;
-    height: 100vh;
-} */
 .mycontainer {
   box-shadow: 0 0 5px 5px rgb(230, 225, 225);
   width: 100%;
@@ -186,6 +201,7 @@ li:hover a,
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3);
+  position: inherit;
 }
 
 .tablediv span {
@@ -223,15 +239,16 @@ li:hover a,
   height: 600px;
   background-color: rgb(240, 239, 239);
   display: flex;
-  padding: 0 30px;
+  padding: 0 10px;
   padding-top: 7rem;
+  margin: 0;
 }
 
 .para {
   float: left;
   /* margin-right: 0; */
   display: block;
-  width: 50%;
+  width: 58%;
   height: auto;
 
   font-size: 15px;
@@ -243,7 +260,7 @@ li:hover a,
 }
 
 .myparent img {
-  width: 50%;
+  width: 48%;
   height: fit-content;
   border-radius: 15px;
 }
@@ -272,6 +289,7 @@ li:hover a,
   align-items: center;
   justify-content: center;
   margin: 0;
+  padding: 0;
 }
 .over h2 {
   font-weight: 100;
@@ -300,6 +318,7 @@ li:hover a,
   grid-template-columns: 24% 24% 24% 24%;
   width: 100%;
   column-gap: 15px;
+  justify-content: center;
 }
 
 .sec-class {
@@ -334,7 +353,7 @@ li:hover a,
   font-family: "Raleway", sans-serif;
   background-color: rgb(99, 99, 99);
   display: flex;
-  padding: 80px 5px;
+  padding: 80px 0;
   align-items: center;
   justify-content: space-around;
   text-align: center;
@@ -344,6 +363,8 @@ li:hover a,
   position: initial;
   font-family: "Montserrat", sans-serif;
   line-height: 1.8;
+  width: 100%;
+  margin: 0;
 }
 
 .navrap .count1,
@@ -356,22 +377,23 @@ li:hover a,
 /* OUR WORK SECTION */
 .imgupload {
   width: 100%;
+  margin: 0;
 }
 
 .imgupload p {
   text-align: center;
-  height: auto;
-  align-items: center;
-  justify-content: center;
+  height: auto; 
+ 
 }
 
 .imgholder {
   display: grid;
-  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  grid-template-columns: 24% 24% 24% 24%;
   width: 100%;
   height: auto;
   gap: 5px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .imlap img {
@@ -398,11 +420,12 @@ li:hover a,
   background-color: rgb(235, 233, 233);
   width: 100%;
   display: flex;
-  padding: 3.5rem 0.5rem;
+  padding: 3.5rem 5PX;
   flex-direction: row;
+  margin: 0;
 }
 .fada {
-  width: 50%;
+  flex: 47%;
   font-size: 15px;
   line-height: 30px;
 }
@@ -413,7 +436,7 @@ li:hover a,
 
 .fada2 {
   margin: 1rem;
-  width: 50%;
+  width: 47%;
   font-family: Arial, sans-serif;
   font-weight: 100;
 }
@@ -647,7 +670,7 @@ margin-right: 0;
 footer {
   text-align: center;
   background-color: black;
-  padding: 65px;
+  padding: 65px 0;
   margin-top: 3rem;
   color: white;
   display: block;
@@ -687,6 +710,8 @@ margin-right: 15px;
 
 
 /* media querry section */
+/* @media (min-width:650px) */
+
 @media (max-width: 650px) {
   .mynav ul{
     display: none;
@@ -709,18 +734,6 @@ float: right;
 .mobile-nav{
   display: block;
 }
-  /* .imgcontainer {
-
-        height: 700px;
-        background-image: url(imgfolder/laptop.png);
-        background-size: cover;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    } */
-
   body {
     margin: 0;
     padding: 0;
