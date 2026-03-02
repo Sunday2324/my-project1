@@ -5,7 +5,7 @@
 }
 main{
   margin: auto;
-  width: 99%;
+  width: 100%;
   height: fit-content;
   padding: 0;
   justify-content: center;
@@ -19,19 +19,17 @@ body {
   color: rgb(32, 32, 32);
   font-weight: 300;
   margin-right: 0;
-   /* font-family: Verdana, sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  
 }
-body,
-h1,
-h2,
-h3 {
-  font-family: Verdana, sans-serif;
-}
+
 
 .icon-sample {
   font-size: 64px;
-  margin-bottom: 16px;
+  margin-top: 50px;
   box-sizing: border-box;
+  padding: 20px 0;
   /* text-rendering: auto; */
 }
 
@@ -55,7 +53,7 @@ h3 {
 #media{
   background-color: whitesmoke;
   color: black;
-  padding: 3px 0;
+  padding: 2px 0;
   border-radius: 5px;
 }
 #media:hover{
@@ -69,9 +67,10 @@ h3 {
 
 .firsy a {
   color: white;
-  font-size: 18px;
-  margin-right: 10px;
+  font-size: 15px;
+  margin: 0;
   opacity: 0.7;
+  gap: 0;
 }
 
 .firsy a:hover {
@@ -100,6 +99,8 @@ position: fixed;
   color: white;
   height: 100vh;
   display: none;
+    z-index: 1;
+
 }
 .mobile-nav a{
  text-decoration: none;
@@ -170,7 +171,7 @@ li:hover a,
 
   color: white;
   font-size: 4.5rem;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 60px;
 }
 
@@ -178,7 +179,6 @@ li:hover a,
   position: initial;
   color: white;
   font-size: 20px;
-  font-weight: 100;
 }
 
 .sen a {
@@ -219,7 +219,7 @@ li:hover a,
   line-height: 25px;
 }
 
-.gridhome div p:first-child {
+.map {
   font-size: 1rem;
   font-weight: 500;
 }
@@ -255,7 +255,7 @@ li:hover a,
   line-height: 1.5rem;
 }
 .para h2 {
-  font-weight: 100;
+  font-weight: 400;
   padding: 30px 0;
 }
 
@@ -292,8 +292,9 @@ li:hover a,
   padding: 0;
 }
 .over h2 {
-  font-weight: 100;
+  font-weight: 400;
   color: rgb(15, 15, 15);
+  font-size: 20px;
 }
 
 .occupation {
@@ -309,7 +310,6 @@ li:hover a,
 .paralel {
   padding-top: 40px;
   padding-bottom: 30px;
-  font-weight: 100;
   color: #161616;
 }
 
@@ -350,7 +350,6 @@ li:hover a,
 
 /* 14+ PARTNERS SECTION */
 .navrap {
-  font-family: "Raleway", sans-serif;
   background-color: rgb(99, 99, 99);
   display: flex;
   padding: 80px 0;
@@ -361,7 +360,6 @@ li:hover a,
   font-size: 15px;
   margin-bottom: 70px;
   position: initial;
-  font-family: "Montserrat", sans-serif;
   line-height: 1.8;
   width: 100%;
   margin: 0;
@@ -407,7 +405,6 @@ li:hover a,
 .imgupload p:first-child {
   font-size: 25px;
   padding: 40px 0;
-  font-weight: 200;
 }
 
 .imlap:hover {
@@ -430,15 +427,13 @@ li:hover a,
   line-height: 30px;
 }
 .fada h3 {
-  font-weight: 100;
+  font-weight: 500;
   font-size: 20px;
 }
 
 .fada2 {
   margin: 1rem;
   width: 47%;
-  font-family: Arial, sans-serif;
-  font-weight: 100;
 }
 
 .fadachild {
@@ -489,9 +484,9 @@ li:hover a,
     background-color: gray;
 
 } */
-.load {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+.hang h1 {
+  font-weight: 300;
+  font-size: 25px;
 }
 .parentbodi {
   margin: 0;
@@ -503,7 +498,6 @@ li:hover a,
   display: block;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .relax {
@@ -511,7 +505,7 @@ li:hover a,
   gap: 10px;
   justify-content: center;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .hang {
@@ -554,12 +548,11 @@ li:hover a,
   background-color: black;
   color: white;
   font-size: 20px;
-  font-weight: bolder;
 }
 
 .amount {
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .remark {
@@ -597,7 +590,6 @@ li:hover a,
   background-color: rgb(252, 54, 54);
   color: white;
   font-size: 20px;
-  font-weight: bolder;
 }
 
 .mybodicount li {
@@ -625,13 +617,12 @@ li:hover a,
 .format {
   text-align: center;
   padding-top: 20px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .contactsiblin p {
   padding: 10px;
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .formchild {
@@ -704,7 +695,7 @@ footer button:hover {
 }
 footer button span{
 font-size: 15px;
-font-weight: bold;
+font-weight: 100;
 margin-right: 15px;
 }
 
@@ -846,7 +837,11 @@ float: right;
   .fada,
   .fada2 {
     width: 100%;
-    height: auto;
+    height: max-content;
+padding: 20px 20px;
+  }
+  .fada2 div{
+    margin: 20px 0;
   }
 
   .parentbodi {
@@ -892,16 +887,70 @@ float: right;
     background-size: cover;
     align-items: center;
     justify-content: center;
-    padding: 0 0.7rem;
+    padding: 30px 40px;
+    line-height: 1.2;
+  }
+  #map{
+    margin: 40px 0;
   }
 
   .text2 {
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 0;
-    padding-top: 150px;
+    padding-top: 100px;
   }
 
   .relax {
     display: block;
   }
+  .firsy{
+    bottom: 2vh;
+    position: absolute;
+  }
+  .imgcontainer span{
+    font-size: 15px;
+  }
+  .sen a{
+padding: 20px 5px;
+font-size: 14px;
+  }
+  .tablediv{
+    padding: 0 15px;
+  }
+ .myparent{
+  padding: 0 30px;
+ }
+ .gellery{
+  padding: 0 30px;
+ }
+ .sec-class{
+  margin: 20px 0;
+ }
+.parentbodi{
+  padding: 100px 30px;
 }
+ 
+}
+@media (max-width: 300px) {
+    
+  .text2{
+    font-size: 30px;
+  }
+  .imgcontainer span{
+    font-size: 14px;
+  }
+  .sen a{
+padding: 20px 5px;
+font-size: 14px;
+  }
+  .imgcontainer{
+    padding: 25px 15px;
+    height: 450px;
+  }
+  .firsy{
+    bottom: 2vh;
+    position: relative;
+    margin-top: 50px;
+    left: 0;
+  }
+  }
